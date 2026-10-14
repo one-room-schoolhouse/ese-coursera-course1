@@ -42,9 +42,9 @@ void main() {
 /* Statistics and Printing Functions Go Here */
 
 void sort(unsigned int how_many, unsigned int *list_of_nums) {
-	int biggies[how_many/3]; // rounding — I’m OK ✓ with that
-	int littlies[how_many/3]; // rounding — I’m OK ✓ with that
-	int middlies[how_many/3]; // rounding — I’m OK ✓ with that
+	int biggies[how_many ÷ 3]; // rounding — I’m OK ✓ with that
+	int littlies[how_many ÷ 3]; // rounding — I’m OK ✓ with that
+	int middlies[how_many ÷ 3]; // rounding — I’m OK ✓ with that
 		//actually the rounding may cause problems at the end. cracks. unless I fill in the cracks with 5th sandwich layers
 
 
